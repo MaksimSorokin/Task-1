@@ -1,0 +1,139 @@
+.searchDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+    width: 1120px;
+    height: 48px;
+    border: 1px solid #D4DEFE;
+    border-radius: 24px;
+    input {
+        border: 0;
+        height: 45px;
+        width:  stretch;
+        border-radius: 24px;
+        padding-left: 10px;
+    }
+    img {
+        margin-right: 24px;
+    }
+}
+
+.search input:focus {
+        outline: none;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1120px;
+    height: 732px;
+    padding-top: 32px;
+    gap: 24px;
+}
+
+.result {
+    width: 357px;
+    height: 314px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 10%);
+    border-radius: 30px;
+}
+
+.name {
+        font-family: var(--font-family-proxima-nova);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        text-decoration: none;
+        text-transform: none;
+        color: var(--text-rgb-38-44-64);
+        padding-top: 24px;
+        padding-left: 24px;
+        padding-bottom: 12px;
+}
+
+.InfoName {
+    font-family: var(--font-family-proxima-nova);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--text-rgb-38-44-64);
+}
+
+.contacts {
+    display: flex;
+    height: 24px;
+    font-family: var(--font-family-proxima-nova);
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(129, 137, 163, 1);
+    img {
+        padding-left: 24px;
+    }
+    label {
+        padding-top: 2px;
+        margin-left: 14px;
+    }
+}
+
+.infoDiv {
+    display: flex;
+    gap: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.PopupHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500;
+    height: 30px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.InfoLinesDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.InfoLabels {
+    display: inline-flex;
+    align-items: center;
+}
+
+.PersonInfo {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-family-proxima-nova);
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(129, 137, 163, 1);
+    min-height: 24px;
+    height: fit-content;
+}
+
+.AddInfoDiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    gap: 12px;
+}
